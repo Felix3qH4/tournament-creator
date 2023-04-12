@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "starting_time": "16:00",
+        "team_a": "Random Team 1",
+        "score": "0 - 0",
+        "team_b": "Other Random Team 2",
+        "minute": "55:00"
+    },
+    {
+        "id": 2,
+        "starting_time": "08:00",
+        "team_a": "Team 1",
+        "score": "2 - 2",
+        "team_b": "Team 2",
+        "minute": "00:55"
+    }
+]
