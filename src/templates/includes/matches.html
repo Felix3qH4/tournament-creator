@@ -53,16 +53,17 @@
 
 
     function blinkUpdate(element, newValue="%NONE%", newColor="#acadac") {
-        previousColor = element.style.background;
+        previousColor = element.style.backgroundColor;
 
         if (newValue != "%NONE%") {
             element.innerHTML = newValue
         }
 
-        element.style.background = newColor;
+        element.style.backgroundColor = newColor;
 
         setTimeout(() => {
-            element.style.background = previousColor;
+            console.log("RESET COLOR")
+            element.style.backgroundColor = previousColor;
         }, 2000)
     }
 </script>
